@@ -189,7 +189,6 @@
 }
 
 .tips__lead {
-  margin-bottom: 10px;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.3;
@@ -290,8 +289,7 @@
     min-height: 1024px;
   }
 
-  .section_why,
-  .section_reasons {
+  .section_why {
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 20px;
@@ -299,6 +297,10 @@
 
   .section_why .section__title {
     max-width: 236px;
+  }
+
+  .section_reasons .section__title {
+    max-width: 168px;
   }
 
   .section_tips {
@@ -376,9 +378,8 @@
     min-height: 100vh;
   }
 
-  .section_reasons {
-    grid-template-columns: 315px 1fr;
-    gap: 20px;
+  .section_reasons .section__title {
+    max-width: 280px;
   }
 
   .section__cards_reasons {
