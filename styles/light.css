@@ -43,4 +43,12 @@
   :root:not(.theme-dark) .header__theme-menu-button {
     color: var(--text-color);
   }
+
+  :root:not(.theme-light):not(.theme-dark) .header__theme-menu-button_type_auto {
+    border-color: transparent;
+  }
+
+  :root:not(.theme-light):not(.theme-dark) .header__theme-menu-button_type_light {
+    border-color: var(--menu-button-active);
+  }
 }
